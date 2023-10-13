@@ -1,0 +1,25 @@
+// Gregory H. Walker; ghw0012
+// project3_Walker_ghw0012.cpp
+// Learning to implement and make use of streams and file I/O, arrays, functions, unit testing, and a simple algorithms.
+// Compile by running "g++ project3_Walker_ghw0012.cpp" in your command line, then run "./a.out" to begin the program.
+// REFERNCES:
+//      (1) Used project example code as a guide and general layout for the formatting of this project.
+//      (2) 
+
+#include <iostream>
+#include <fstream>
+#include <cstdlib>
+
+using namespace std;
+
+int main() {
+
+	string fileName;
+	int inputData;
+
+	std::cout << "*** Welcome to Hayden's sorting program ***\n" << "Enter the first input file name: ";
+	std::cin >> fileName;
+	std::cout << fileName;
+
+}
+
